@@ -6,7 +6,7 @@
 
 body {
     background-color: #4e18f1;
-    padding: 0 15px;
+    padding: 10px 30px;
 }
 
 header {
@@ -51,3 +51,130 @@ header {
 
     border-radius: 20px;
 }
+
+
+/* Sections */
+
+section {
+    display: flex;
+}
+
+
+.section {
+    align-items: center;
+}
+
+.text h1 {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 22px;
+    color: #fff;
+}
+
+.text {
+    flex: 1 1 300px;
+}
+
+.text button {
+    background: rgb(248,125,43);
+    background: linear-gradient(56deg, rgba(248,125,43,1) 49%, rgba(255,255,255,1) 100%);
+    color: #fff;
+    width: 150px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+    font-size: 18px;
+}
+
+
+.img-1 {
+    flex: 1 1 700px;
+
+}
+.img-1 img {
+    width: 100%;
+}
+
+
+.brand-logos {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.brand-logos p {
+    font-size: 12px;
+}
+
+
+
+/* Section - 2 */
+
+
+.secondary-heading {
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+
+    color: #fff;
+    font-weight: bold;
+}
+
+.subheadings {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.container {
+    display: flex;
+
+    margin-top: 250px;
+    padding: 0 300px;
+    gap: 100px;
+
+    color: #fff;
+
+
+}
+
+.container img {
+    margin-bottom: 20px;
+}
+
+
+
+.patent-tech {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.6;
+
+    flex: 1;
+}
+
+
+
+.patent-tech a:link {
+    color: #fff;
+    font-weight: bold;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.6;
+
+    flex: 1;
+}
+
